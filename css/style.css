@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+body {
+    margin: 0;
+}  
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1140px;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.song {
+    text-align: left;
+    width: 40%;
+}
